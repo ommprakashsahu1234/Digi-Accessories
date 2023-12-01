@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #7d0297;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(100, 44, 343);
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .logo {
+            height: 50px;
+            width: 50px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        
+        .profile {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+        
+        .bodypart1 {
+            background-color: aqua;
+        }
+        
+        .bodypart2 {
+            background-color: rgb(22, 177, 22);
+        }
+        
+        .sellbox {
+            background-color: lightblue;
+            width: 500px;
+            padding: 20px;
+            border: 3px solid;
+            border-radius: 20px;
+            margin: 0 auto;
+        }
+        
+        .sellbox label,
+        .sellbox input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        .foot {
+            background-color: blue;
+        }
+    </style>
+    <script>
+        function seller() {
+            alert("Seller Registration Successfull.");
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <img align="left" class="logo" src="Digi Logo.png">
+        <img align="right" class="profile" src="avatar.jpg">
+        <h1>Digi Accessories</h1>
+    </header>
+
+    <nav>
+        <a href="Digi Accessories.html">Home</a>
+        <a href="Services.html">Services</a>
+    </nav>
+    <br> <br> <br>
+    <section class="bodypart1">
+        <div align="center"> <b>Welcome to Digi Accessories.</b></div>
+    </section>
+    <br>
+    <section class="bodypart2">
+        <div align="center">
+            <i> You can buy or sell your digital products here. </i>
+        </div>
+    </section>
+    <br> <br> <br>
+
+
+
+
+
+
+    <section class="sellsec">
+        <div class="sellbox">
+            <div align="center">
+                <font size="6" color="black"><b> <u>SELLER DATA ENTRY</u> </b></font>
+                <br>
+                <br>
+                <font size="5"><u>Digi Accessories Seller</u></font>
+            </div>
+            <font face=" Verdana " align="left " size="3 " color="black ">
+                <form method="post">
+                    <br>
+                    <br>
+                    <label for="name">Name : </label>
+                    <input type="textbox " id="name" class="name " placeholder="name " />
+                    <label for="age">Age : </label>
+                    <input type="number" id="age " class="age " placeholder="age " />
+                    <label for="pan">PAN Card Number :  </label>
+                    <input type="textbox" id="pan" class="pan" placeholder="pan card number">
+                    <label for="phonenumber"> Phone Number : </label>
+                    <input type="number" id="phonenumber " class="phonenumber " placeholder="phone number ">
+                    <label for="email">E-Mail : </label>
+                    <input type="textbox " id="email " class="email " placeholder="e-mail ">
+                    <label for="query">For what type of service you want to request : </label>
+                    <input type="textbox " id="query" class="query" placeholder="query">
+                </form>
+                <div align="center">
+                    <input type="button" onclick="seller()" value="Submit" name="loginbtn">
+                    <br> Powered by Omm Prakash Sahu@2023
+                </div>
+            </font>
+        </div>
+    </section>
+    <div class="foot">
+        <hr>
+        <br><br><br>
+
+        <p align="center"><b>All Rights Reserved by Omm Prakash Sahu@2023</b> <br><br>If any Problem is faced mail us at :
+            <br>
+
+            <u>opsommprakash@gmail.com</u>
+            <br><br><br><br> </p>
+    </div>
+</body>
+
+</html>

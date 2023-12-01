@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #7d0297;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(100, 44, 343);
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .logo {
+            height: 50px;
+            width: 50px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        
+        .profile {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+        
+        .bodypart1 {
+            background-color: aqua;
+        }
+        
+        .bodypart2 {
+            background-color: rgb(22, 177, 22);
+        }
+        
+        .foot {
+            background-color: blue;
+        }
+    </style>
+    <script>
+        function entersucc() {
+            alert("User Registration Successful.");
+            window.location.href = "Login.html";
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <img align="left" class="logo" src="Digi Logo.png" />
+        <img align="right" class="profile" src="avatar.jpg" />
+        <h1>Digi Accessories</h1>
+    </header>
+
+    <nav>
+        <a href="Digi Accessories.html">Home</a
+      >
+    </nav>
+    <br />
+    <br />
+    <br />
+    <section class="bodypart1">
+      <div align="center"><b>Welcome to Digi Accessories.</b></div>
+    </section>
+    <br />
+    <section class="bodypart2">
+      <div align="center">
+        <i> You can buy or sell your digital products here. </i>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+
+    <style>
+      .userinputbox {
+        background-color: lightgray;
+        width: 500px;
+        padding: 20px;
+        border: 3px solid;
+        border-radius: 20px;
+        margin: 0 auto;
+      }
+
+      .userinputbox label,
+      .userinputbox input {
+        display: block;
+        margin-bottom: 10px;
+      }
+    </style>
+    <section class="loginbox">
+      <div class="loginbox">
+        <div align="center">
+          <font size="6" color="black"><b> <u>REGISTER</u> </b></font>
+          <br />
+          <br />
+          <font size="5"><u>Digi Accessories</u></font>
+        </div>
+        <font face=" Verdana " align="left " size="3 " color="black ">
+          <form method="post" action="login.php">
+            <br />
+            <br />
+            <div align="center">
+              <label for="uname">Name : </label>
+              <input
+                type="textbox"
+                id="name"
+                class="name"
+                placeholder="name "
+              />
+              <br />
+              <br />
+              <label for="email"> E- Mail : </label>
+              <input
+                type="textbox"
+                id="email"
+                class="email"
+                placeholder="email "
+              />
+              <br />
+              <br />
+              <label for="ph_no"> Phone Number : </label>
+              <input
+                type="textbox"
+                id="ph_no"
+                class="ph_no"
+                placeholder="phone number "
+              />
+              <br />
+              <br />
+              <label for="uname "> User Name : </label>
+              <input
+                type="textbox "
+                id="uname "
+                class="uname"
+                placeholder="user name "
+              />
+              <br />
+              <br />
+              <label for="pw ">Password : </label>
+              <input
+                type="password"
+                id="pw "
+                class="pw"
+                placeholder="password "
+              />
+              <br />
+              <br />
+            </div>
+          </form>
+          <div align="center ">
+            <input
+              type="button"
+              onclick="entersucc()"
+              value="Submit"
+              name="loginbtn "
+            />
+          </div>
+          <br />
+          <br />
+        </font>
+      </div>
+    </section>
+
+    <div class="foot">
+      <hr />
+      <br /><br /><br />
+
+      <p align="center ">
+        <b>All Rights Reserved by Omm Prakash Sahu@2023</b> <br /><br />If any
+        Problem is faced mail us at :
+        <br />
+
+        <u>opsommprakash@gmail.com </u>
+        <br /><br /><br /><br />
+      </p>
+    </div>
+  </body>
+</html>

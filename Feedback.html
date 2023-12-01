@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #7d0297;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgb(100, 44, 343);
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+            text-align: center;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        .logo {
+            height: 50px;
+            width: 50px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        
+        .profile {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            margin-right: 15px;
+        }
+        
+        .bodypart1 {
+            background-color: aqua;
+        }
+        
+        .bodypart2 {
+            background-color: rgb(22, 177, 22);
+        }
+        
+        .foot {
+            background-color: blue;
+        }
+    </style>
+    <script>
+        function feed() {
+            alert("Thankyou for giving your valuable feedback");
+        }
+
+        function success() {
+            alert("Suggestions submitted successfully");
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <img align="left" class="logo" src="Digi Logo.png">
+        <img align="right" class="profile" src="avatar.jpg">
+        <h1>Digi Accessories</h1>
+    </header>
+
+    <nav>
+        <a href="Digi Accessories.html">Home</a>
+        <a href="Feedback.html">Feedback</a>
+    </nav>
+    <br> <br> <br>
+    <section class="bodypart1">
+        <div align="center"> <b>Welcome to Digi Accessories.</b></div>
+    </section>
+    <br>
+    <section class="bodypart2">
+        <div align="center">
+            <i> You can buy or sell your digital products here. </i>
+        </div>
+    </section>
+    <br> <br> <br>
+    <div align="center">
+        <font face="arial black" size="6">Is our Webpage found useful for you ?
+        </font>
+        <br>
+        <input type="button" value="Yes" onclick="feed()"> <input type="button" value="No" onclick="feed()"> </div>
+    <br>
+    <br>
+    <div class="suggest" align="center">
+        <label for="suggest">Any Suggestions: </label>
+        <input id="suggest" type="textbox" placeholder="Suggestions">
+        <input type="submit" value="submit" onclick="success()"> </div>
+    <div class="foot">
+        <hr>
+        <br><br><br>
+
+        <p align="center"><b>All Rights Reserved by Omm Prakash Sahu@2023</b> <br><br>If any Problem is faced mail us at :
+            <br>
+
+            <u>opsommprakash@gmail.com</u>
+            <br><br><br><br> </p>
+    </div>
+</body>
+
+</html>
